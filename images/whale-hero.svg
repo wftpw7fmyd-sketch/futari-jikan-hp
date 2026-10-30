@@ -1,1 +1,34 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 760"><defs><linearGradient id="sky" x2="0" y2="1"><stop stop-color="#07142d"/><stop offset=".65" stop-color="#25476c"/><stop offset="1" stop-color="#496b86"/></linearGradient><radialGradient id="halo"><stop stop-color="#fff0bf" stop-opacity=".85"/><stop offset="1" stop-color="#fff0bf" stop-opacity="0"/></radialGradient><linearGradient id="sea" x2=".3" y2="1"><stop stop-color="#37728e"/><stop offset="1" stop-color="#071d37"/></linearGradient></defs><rect width="1440" height="760" fill="url(#sky)"/><circle cx="1130" cy="145" r="165" fill="url(#halo)"/><circle cx="1130" cy="145" r="78" fill="#f5e3b7"/><g fill="#f4e3bb" opacity=".75"><circle cx="125" cy="78" r="2"/><circle cx="340" cy="135" r="3"/><circle cx="610" cy="58" r="2"/><circle cx="780" cy="188" r="2"/><circle cx="1320" cy="270" r="2"/><circle cx="920" cy="56" r="2"/><circle cx="240" cy="245" r="2"/></g><path d="M0 535 Q210 475 400 540 T800 530 T1440 535 V760 H0Z" fill="url(#sea)"/><g stroke="#a2c4d0" stroke-width="4" opacity=".5" fill="none"><path d="M0 600 Q120 555 250 610 T520 605 T840 610 T1200 600 T1440 615"/><path d="M0 670 Q170 625 350 665 T720 655 T1080 670 T1440 655"/></g><g transform="translate(55 215) rotate(-12 400 230)"><path d="M100 260 Q220 80 495 110 Q625 100 710 165 Q738 190 713 217 Q650 270 505 305 Q355 344 170 300 L65 350 L103 278 L18 228 Z" fill="#142c49" stroke="#a3c3d0" stroke-width="6"/><path d="M195 265 Q450 340 690 207 Q560 347 280 329Z" fill="#9fb5c7"/><path d="M350 150 Q325 40 400 2 Q435 85 505 112Z" fill="#142c49"/><path d="M405 270 Q460 375 355 430 Q320 360 325 305Z" fill="#102c4d"/><circle cx="638" cy="180" r="8" fill="#e8e3d4"/></g><g fill="none" stroke="#d2e6f1" stroke-width="8" stroke-linecap="round" opacity=".85"><path d="M635 295 Q620 225 654 180 Q675 135 652 90"/><path d="M647 250 Q695 210 705 155"/><path d="M645 210 Q610 160 592 133"/></g><g fill="#e1eef6" opacity=".7"><circle cx="651" cy="76" r="7"/><circle cx="695" cy="132" r="5"/><circle cx="589" cy="120" r="6"/><circle cx="705" cy="195" r="4"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 760">
+<defs>
+<linearGradient id="sky" x2=".15" y2="1"><stop stop-color="#02050d"/><stop offset=".65" stop-color="#0a1726"/><stop offset="1" stop-color="#122333"/></linearGradient>
+<radialGradient id="glow"><stop stop-color="#fff0c2" stop-opacity=".65"/><stop offset="1" stop-color="#d9a65d" stop-opacity="0"/></radialGradient>
+<linearGradient id="body" x1=".2" y1="0" x2=".75" y2="1"><stop stop-color="#7a8490"/><stop offset=".18" stop-color="#303e4b"/><stop offset=".55" stop-color="#0d1825"/><stop offset="1" stop-color="#020810"/></linearGradient>
+<linearGradient id="belly" x2=".3" y2="1"><stop stop-color="#e1d8c8"/><stop offset=".55" stop-color="#8796a3"/><stop offset="1" stop-color="#283747"/></linearGradient>
+<linearGradient id="water" x2="0" y2="1"><stop stop-color="#c6c0aa" stop-opacity=".04"/><stop offset=".6" stop-color="#a3c5cf" stop-opacity=".48"/><stop offset="1" stop-color="#e4e2d3" stop-opacity=".8"/></linearGradient>
+<filter id="blur"><feGaussianBlur stdDeviation="28"/></filter><filter id="grain"><feTurbulence baseFrequency=".025" numOctaves="3" seed="8" result="n"/><feColorMatrix in="n" type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope=".13"/></feComponentTransfer></filter>
+</defs>
+<rect width="1440" height="760" fill="url(#sky)"/>
+<ellipse cx="1120" cy="180" rx="240" ry="220" fill="url(#glow)"/><circle cx="1120" cy="181" r="78" fill="#f8e4b0"/><circle cx="1120" cy="181" r="77" fill="none" stroke="#fff5d5" stroke-width="3"/>
+<g fill="#a7a8a4" opacity=".22"><circle cx="1093" cy="150" r="13"/><circle cx="1145" cy="203" r="18"/><circle cx="1099" cy="207" r="10"/><circle cx="1145" cy="154" r="9"/></g>
+<path d="M0 315Q220 250 400 320T830 310T1440 340V760H0Z" fill="#070e19" opacity=".36"/>
+<path d="M0 560Q230 530 470 558T950 560T1440 552V760H0Z" fill="#07121d"/>
+<g fill="none" stroke="#c6a26b" opacity=".6" stroke-linecap="round"><path d="M900 564q140 12 340-4M860 586q160 16 520-8M950 608q100 12 350-4M900 636q170 8 400-5M1010 674q140 15 360-8" stroke-width="5"/><path d="M1050 702q180 14 360-7" stroke-width="7"/></g>
+<!-- A single humpback breaching with one pectoral fin and a clearly located blowhole -->
+<g transform="translate(55 28) rotate(-12 540 450)">
+<path d="M120 608Q250 526 342 390Q426 265 613 270Q760 277 863 361Q903 392 892 417Q878 450 813 477Q694 535 530 574Q345 610 120 608Z" fill="url(#body)" stroke="#7f8991" stroke-width="3"/>
+<path d="M375 503Q577 559 884 421Q816 524 571 593Q427 618 295 599Z" fill="url(#belly)"/>
+<g stroke="#36434b" stroke-width="4" fill="none" opacity=".8"><path d="M454 529Q631 571 858 438"/><path d="M480 543Q630 588 840 459"/><path d="M518 558Q659 590 811 479"/><path d="M550 574Q681 592 775 500"/></g>
+<path d="M472 385Q399 244 334 152Q301 104 281 110Q252 125 273 187Q304 301 374 449Z" fill="url(#body)" stroke="#c2c3b7" stroke-width="4"/>
+<path d="M281 112Q296 141 308 168Q320 170 324 185Q336 187 344 205Q353 209 360 228Q371 230 379 247Q388 254 398 271" stroke="#d1d5ce" stroke-width="9" fill="none" stroke-linecap="round"/>
+<path d="M152 601Q95 630 63 684Q138 661 234 619Z" fill="#1d2934"/>
+<path d="M811 373Q842 364 866 382" fill="none" stroke="#aeb7b3" stroke-width="5"/><ellipse cx="833" cy="396" rx="6" ry="5" fill="#d3c9b4"/>
+<path d="M695 289q20-13 41-5" fill="none" stroke="#9b9f9c" stroke-width="6"/><ellipse cx="720" cy="284" rx="12" ry="4" fill="#070d15"/>
+<g fill="#b9b8ae" opacity=".65"><circle cx="832" cy="367" r="5"/><circle cx="849" cy="375" r="4"/><circle cx="810" cy="361" r="4"/><circle cx="789" cy="346" r="3"/></g>
+</g>
+<!-- Tall narrow plume visibly originating at the blowhole -->
+<path d="M720 268Q699 183 686 120Q672 54 660 -28M721 267Q747 164 759 86Q767 20 790 -40M722 266Q712 137 718 20" stroke="url(#water)" stroke-width="24" stroke-linecap="round" fill="none" opacity=".7"/>
+<path d="M718 266Q691 160 675 85M721 265Q741 160 770 62M719 265Q715 135 712 5" stroke="#f2ead7" stroke-width="5" stroke-linecap="round" fill="none" opacity=".8"/>
+<g fill="#e9e2d0" opacity=".75"><circle cx="678" cy="90" r="5"/><circle cx="750" cy="103" r="6"/><circle cx="694" cy="44" r="4"/><circle cx="777" cy="35" r="3"/><circle cx="730" cy="161" r="4"/><circle cx="704" cy="198" r="4"/></g>
+<g fill="none" stroke="#e2e6df" opacity=".8"><path d="M30 602Q185 505 310 586T615 611T1010 585" stroke-width="13"/><path d="M0 640Q260 580 465 650T970 635T1440 628" stroke-width="8"/><path d="M110 680Q330 638 610 695T1220 680" stroke-width="6"/></g>
+<rect width="1440" height="760" filter="url(#grain)" opacity=".5"/>
+</svg>
