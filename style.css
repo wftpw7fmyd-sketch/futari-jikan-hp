@@ -45,5 +45,6 @@
 .hero .hero-copy .eyebrow{line-height:1.5}
 @media(max-width:600px){.hero .hero-copy{bottom:10px;padding:0 12px}.hero .hero-copy .eyebrow{font-size:10px}.hero .hero-copy p{font-size:13px}}
 
-/* single-moon-20261031: 元写真の月だけを見せる */
-@media(max-width:600px){.hero .hero-art{object-position:right center}}
+/* restored-whale-20261031: 元のクジラ位置と画像内の一つの月 */
+@media(max-width:600px){.hero .hero-art{object-position:57% center}}
+@media(max-width:360px){.hero .hero-art{object-position:65% center}}
