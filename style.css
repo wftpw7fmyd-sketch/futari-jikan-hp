@@ -37,3 +37,10 @@
 .hero-copy{position:relative;z-index:2;width:100%;padding:24px 0;background:none;text-shadow:0 2px 12px #000,0 0 28px #000}
 .hero-copy .eyebrow{color:#f4dbab}.hero-copy h1{color:#fff8e9}.hero-copy p{color:#fff8ee}
 @media(max-width:600px){.hero{min-height:520px;min-height:68svh;padding:64px 12px}.hero-art{object-position:57% center}.hero-copy{padding:20px 0}.hero-copy p{font-size:14px}}
+
+/* hero-copy-bottom-20261031: 文章を写真内の下端に配置 */
+.hero .hero-copy{position:absolute;inset:auto 0 12px;width:100%;padding:0 16px;z-index:2}
+.hero .hero-copy h1{margin:4px 0;line-height:1.4}
+.hero .hero-copy p{margin:4px 0 0;line-height:1.6}
+.hero .hero-copy .eyebrow{line-height:1.5}
+@media(max-width:600px){.hero .hero-copy{bottom:10px;padding:0 12px}.hero .hero-copy .eyebrow{font-size:10px}.hero .hero-copy p{font-size:13px}}
