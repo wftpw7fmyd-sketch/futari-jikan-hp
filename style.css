@@ -45,6 +45,5 @@
 .hero .hero-copy .eyebrow{line-height:1.5}
 @media(max-width:600px){.hero .hero-copy{bottom:10px;padding:0 12px}.hero .hero-copy .eyebrow{font-size:10px}.hero .hero-copy p{font-size:13px}}
 
-/* hero-moon-20261031: スマホのトリミングで隠れる写真内の月を右上に表示 */
-.hero-moon{display:none}
-@media(max-width:600px){.hero-moon{display:block;position:absolute;top:32px;right:24px;width:68px;height:68px;border-radius:50%;background-image:url('images/whale-hero-20261031.jpg');background-size:1422.222% 948.148%;background-position:86.555% 25.764%;background-repeat:no-repeat;box-shadow:0 0 22px 6px rgba(255,206,122,.28),0 0 55px 14px rgba(245,184,83,.12);z-index:2;pointer-events:none}}
+/* single-moon-20261031: 元写真の月だけを見せる */
+@media(max-width:600px){.hero .hero-art{object-position:right center}}
