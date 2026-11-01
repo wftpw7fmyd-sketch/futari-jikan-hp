@@ -56,3 +56,17 @@ header nav a:hover,footer nav a:hover{background:#343023;border-color:#d4b77c;co
 header nav a:focus-visible,footer nav a:focus-visible{outline:2px solid #f0d6a0;outline-offset:3px}
 header nav a:active,footer nav a:active{background:#473b29}
 @media(max-width:600px){header nav,footer nav{gap:6px;padding:12px 10px}header nav a,footer nav a{flex:1 1 calc(25% - 6px);min-width:0;min-height:44px;padding:7px 5px;font-size:11px;letter-spacing:0}}
+
+/* compact-navigation-20261101 */
+header nav.compact-nav{display:grid;grid-template-columns:.85fr 1.3fr .85fr .85fr;position:relative;max-width:720px;gap:8px}
+header .compact-nav>a,header .nav-more>summary{display:flex;align-items:center;justify-content:center;min-height:44px;margin:0;padding:8px 6px;border:1px solid #a68a576e;border-radius:8px;background:linear-gradient(160deg,#222535,#111722);color:#ead7af;font:inherit;font-size:12px;line-height:1.5;text-align:center;text-decoration:none;cursor:pointer}
+header .nav-more{min-width:0}
+header .nav-more>summary{list-style:none;gap:6px}
+header .nav-more>summary::-webkit-details-marker{display:none}
+header .nav-more>summary::after{content:"";width:6px;height:6px;border-right:1px solid currentColor;border-bottom:1px solid currentColor;transform:rotate(45deg);margin-top:-3px}
+header .nav-more[open]>summary::after{transform:rotate(225deg);margin-top:3px}
+header .nav-more[open]>summary,header .compact-nav a[aria-current="page"]{background:#403725;border-color:#d4b77c;color:#fff3d7}
+header .nav-more>summary:focus-visible{outline:2px solid #f0d6a0;outline-offset:3px}
+header .nav-more-links{position:absolute;right:16px;top:calc(100% - 8px);width:min(280px,calc(100% - 32px));display:grid;gap:6px;padding:12px;background:#0d1421;border:1px solid #a68a5780;border-radius:12px;box-shadow:0 14px 32px #0009;z-index:20}
+header .nav-more-links a{justify-content:flex-start;padding:11px 14px;font-size:13px}
+@media(max-width:600px){header nav.compact-nav{gap:6px;padding:12px 10px}header .compact-nav>a,header .nav-more>summary{font-size:11px;letter-spacing:0}.nav-more-links{max-height:65svh;overflow-y:auto}}
